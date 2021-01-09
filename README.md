@@ -31,6 +31,9 @@ $ make run ARG=plan ARG2=
 
 # terraform apply
 $ make run ARG=apply ARG2=-auto-approve
+
+# Destroy
+$ make run ARG=destroy ARG2=-auto-approve
 ```
 
 ### ECS
