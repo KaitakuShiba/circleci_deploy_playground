@@ -1,3 +1,7 @@
+module "create_vpc" {
+  source = "./vpc"
+}
+
 module "push_ecr" {
   source = "./ecr"
 }
